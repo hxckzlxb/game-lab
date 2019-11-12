@@ -1,6 +1,15 @@
 package main.math;
 
 public class Matrix4f {
+	/*
+	Se trata de matemática algebraica referida al manejo de matrices y vectores, algo
+	necesario si vamos a tratar con un espacio 3D, ya que la información que vamos controlar
+	y más tarde, operar con ella se descompone en vectores de la forma (x, y, z).
+
+	Los métodos que se incluyen son básicos, como la creación de matrices identidad, cero, la rotación,
+	la matriz ortogonal, translación. Por último aparece el operador de multiplicación de matrices y
+	los getters y setters para obtener la información de los objetos de esta clase.
+	*/
 
 	// Variables
 	private float[][] elements;
